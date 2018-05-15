@@ -1,0 +1,45 @@
+.wp-block-demo-talk-latest-author-post {
+    background-color: #e9ecef;
+    padding: 1.5em 2em;
+    margin: 1em 0 0 0;
+
+    h3 {
+        margin: 0 0 .5em 0;
+    }
+
+    &__container {
+        display: flex;
+    }
+
+    &__author {
+        width: 100%;
+        max-width: 300px;
+        margin: 0;
+        padding: 0;
+        flex-grow: 0;
+
+        figcaption {
+            width: auto;
+            display: inline-block;
+            font-size: .8em;
+            font-style: oblique;
+        }
+    }
+
+    &__post {
+        flex-grow: 1;
+
+        h4 {
+            margin: 0;
+        }
+    }
+
+    &__excerpt p:first-of-type {
+        margin: 0;
+    }
+
+    &__read-more {
+        margin-bottom: 0;
+        text-align: right;
+    }
+}

@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/mixins";
+
+.wp-block-demo-talk-jumbotron {
+    @import "~bootstrap/scss/buttons";
+    @import "~bootstrap/scss/jumbotron";
+    @import "~bootstrap/scss/type";
+
+    .jumbotron .text p {
+        font-size: 1rem;
+    }
+}

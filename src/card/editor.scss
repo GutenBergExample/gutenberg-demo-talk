@@ -1,0 +1,75 @@
+.wp-block-demo-talk-card {
+    margin: 0;
+
+    .wp-block-demo-talk-card-text:last-child {
+        margin-bottom: 1rem;
+    }
+
+    .btn {
+        user-select: text;
+    }
+}
+
+.wp-block-demo-talk-card.text-center .wp-block-demo-talk-card__button-container {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.wp-block-demo-talk-card.text-right .wp-block-demo-talk-card__button-container {
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    float: right;
+}
+
+.wp-block-demo-talk-card__button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wp-block-demo-talk-card__inline-link {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    width: 280px;
+    margin-left: 1em;
+}
+
+.wp-block-demo-talk-card__inline-link .editor-url-input {
+    width: auto;
+}
+
+.wp-block-demo-talk-card__inline-link .editor-url-input__suggestions {
+    width: 208px;
+    z-index: 6;
+}
+
+.wp-block-demo-talk-card__inline-link > .dashicon {
+    width: 36px;
+}
+
+.wp-block-demo-talk-card__inline-link .dashicon {
+    color: #8f98a1;
+}
+
+.wp-block-demo-talk-card__inline-link .editor-url-input input[type=text]::placeholder {
+    color: #8f98a1;
+}
+
+.wp-block-demo-talk-card__toolbar-media-upload {
+    border-left: 1px solid #e2e4e7;
+}
+
+/*
+.wp-block-demo-talk-card-columns-editor .editor-block-list__layout {
+    column-gap: 0;
+    column-count: 2;
+
+    .editor-block-list__block-edit {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}*/
